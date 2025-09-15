@@ -1,5 +1,5 @@
 <!-- Botão de fechar -->
-<div id="x" onclick="oi()" style="position: fixed; top: 130px; left: 5px; background-color: red; color: white; padding: 10px; cursor: pointer; z-index: 1001;">
+<div id="x" onclick="oi()" style="position: fixed; top: 130px; left: 5px; background-color: red; color: white; padding: 10px; cursor: pointer; z-index: 1001; width=120px;">
   x
 </div>
 
@@ -14,7 +14,7 @@
   let existe = false;
   for (let i = 0; i < cookies.length; i++) {
     let cookie = cookies[i].trim();
-    if (cookie.startsWith('meu=ok')) {
+    if (cookie.startsWith('meu=okçs')) {
       existe = true;
       break;
     }
