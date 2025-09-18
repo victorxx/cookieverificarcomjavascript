@@ -1,6 +1,3 @@
-
-
-
 <div id="vitor"
 style="position: absolute;left: 0; top:50px;"
 >VICTOR</div>
